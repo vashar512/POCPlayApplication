@@ -1,0 +1,22 @@
+@()
+
+@scripts = {
+    <script type="text/javascript" src="/assets/javascripts/hello.js"></script>
+}
+
+@styling = {
+    <link rel="stylesheet" href="/assets/stylesheets/index.css">
+}
+
+@main(title = "Welcome to Play")(scripts)(styling) {
+<div class="index-div">
+    <div class="section-heading">
+        This is a section heading
+    </div>
+    <ul>
+        <li>Please go to <a href="https://www.google.com">https://www.google.com</a></li>
+    </ul>
+
+</div>
+
+}
